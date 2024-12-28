@@ -69,12 +69,14 @@ Once a cache is invalidated, a link to refresh the cache will appear in the admi
 <div>
     <img src="./media/1.png" alt="Admin Cache Invalidate Screen">
 </div>
+<br/>
 
 **Cache Clean Confirmation Screen**
 <div>
     <img src="./media/2.png" alt="Admin Cache Clean Confirmation Screen">
 </div>
 <br/>
+
 **Cache Clean Message Screen**
 <div>
     <img src="./media/3.png" alt="Admin Cache Clean Message Screen">
