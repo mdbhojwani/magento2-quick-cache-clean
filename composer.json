@@ -1,0 +1,26 @@
+{
+  "name": "mdbhojwani/magento2-quick-cache-clean",
+  "description": "Magento 2 Quick Cache Clean",
+  "keywords": ["magento", "magento2", "magento2 extension", "magento 2 extension", "extension", "module", "magento2 module", "cache", "cache clean", "quick cache clean"],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mdbhojwani/magento2-quick-cache-clean",
+  "authors": [
+    {
+      "name": "Manish Bhojwani",
+      "email": "manishbhojwani3@gmail.com",
+      "homepage": "https://github.com/mdbhojwani"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Mdbhojwani\\QuickCacheClean\\": ""
+    }
+  }
+}

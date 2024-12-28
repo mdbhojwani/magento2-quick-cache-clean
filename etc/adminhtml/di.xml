@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category Mdbhojwani
+ * @package Mdbhojwani_QuickCacheClean
+ * @author Manish Bhojwani <manishbhojwani3@gmail.com>
+ * @github https://github.com/mdbhojwani
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Display Cache Invalidate Message on the top of the page -->
+    <type name="Magento\AdminNotification\Model\System\Message\CacheOutdated">
+        <plugin name="mdbhojwani_quickcacheclean_notification" 
+                type="Mdbhojwani\QuickCacheClean\Plugin\CacheOutdatedMessage"/>
+    </type>
+    <!-- Cache Management page Add Cache Invalidate Button -->
+    <type name="Magento\Backend\Block\Widget\Button\Toolbar">
+        <plugin name="mdbhojwani_quickcacheclean_.button" 
+                type="Mdbhojwani\QuickCacheClean\Plugin\ToolbarButtons"/>
+    </type>
+</config>
