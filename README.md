@@ -4,7 +4,7 @@
 
 - [Summary](#summary)
 - [Installation](#installation)
-- [Detail Information](#details)
+- [Detail Information](#detail-information)
 - [License](#license)
 
 ## Summary
