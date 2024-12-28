@@ -63,8 +63,6 @@ By following these 2 Ways you can easily obtain and install the module. For deta
 
 ## Detail Information
 
-From Admin,
-
 Once a cache is invalidated, a link to refresh the cache will appear in the admin top notification bar. You simply need to click the link, and confirm.
 
 **Cache Invalidate Screen**
@@ -76,11 +74,12 @@ Once a cache is invalidated, a link to refresh the cache will appear in the admi
 <div>
     <img src="./media/2.png" alt="Admin Cache Clean Confirmation Screen">
 </div>
-
+<br/>
 **Cache Clean Message Screen**
 <div>
     <img src="./media/3.png" alt="Admin Cache Clean Message Screen">
 </div>
+<br/><br/>
 
 Additionally, you can find the **Flush Invalidated Cache(s)** button under **System > Cache Management** page to refresh the invalidated cache(s) with a single click.
 
@@ -88,6 +87,7 @@ Additionally, you can find the **Flush Invalidated Cache(s)** button under **Sys
 <div>
     <img src="./media/4.png" alt="Admin Cache Invalidate Button Screen">
 </div>
+<br/>
 
 **Cache Clean Message Screen**
 <div>
